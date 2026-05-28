@@ -87,3 +87,67 @@ footer {
     color: #b22222;
     font-size: 28px;
 }
+/* RESPONSIVE DESIGN */
+
+/* Tablets */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 95%;
+    }
+
+    a {
+        display: block;
+        width: 90%;
+        margin: 8px auto;
+        text-align: center;
+    }
+
+    .menu-container {
+        width: 95%;
+    }
+
+    img, iframe {
+        max-width: 95%;
+        height: auto;
+    }
+}
+
+/* Mobile phones */
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 90%;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    p {
+        padding: 0 5%;
+    }
+
+    .menu-section {
+        padding: 1rem;
+        margin: 1rem 0;
+    }
+
+    .menu-section span {
+        float: none;
+        display: block;
+        margin-top: 0.3rem;
+    }
+
+    img, iframe {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    footer {
+        font-size: 0.9rem;
+        padding: 1rem;
+    }
+}
