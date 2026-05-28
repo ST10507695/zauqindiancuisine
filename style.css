@@ -72,7 +72,7 @@ footer {
     color: white;
     text-align: center;
     padding: 15px;
-    margin-top: 20px;
+    margin-top: none;
 }
 
 
@@ -156,7 +156,7 @@ footer {
     color: white;
     text-align: center;
     padding: 15px;
-    margin-top: 20px;
+    margin-top: none;
 }
 
 /* SOCIAL ICONS */
@@ -288,7 +288,7 @@ h1, h2, h4 {
 footer {
     background-color: #b22222;
     color: white;
-    border-top: 4px solid #8b0000;
+    border-top: none;
     box-shadow: 0 -2px 8px rgba(0,0,0,0.2);
 }
 
