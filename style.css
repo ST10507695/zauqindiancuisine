@@ -354,3 +354,13 @@ button:active {
         padding: 0 5%;
     }
 }
+.social-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}   
