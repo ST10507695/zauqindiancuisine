@@ -290,3 +290,97 @@ main {
     width: 30%;
     text-align: center;
 }
+
+/* VISUAL STYLING */
+
+/* Navigation Links */
+a {
+    color: white;
+    background-color: #b22222;
+    border: 2px solid #8b0000;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 5px;
+    display: inline-block;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+a:hover {
+    background-color: #8b0000;
+    color: #fff8f0;
+    transform: translateY(-2px);
+}
+
+/* Active Effect */
+a:active {
+    background-color: #5c0000;
+    transform: scale(0.98);
+}
+
+/* Focus Effect */
+a:focus {
+    outline: 3px solid #ffcc80;
+}
+
+/* Menu Sections */
+.menu-section {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+/* Menu Section Hover */
+.menu-section:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+}
+
+/* Headings */
+h1, h2, h4 {
+    color: #b22222;
+}
+
+/* Footer */
+footer {
+    background-color: #b22222;
+    color: white;
+    border-top: 4px solid #8b0000;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.2);
+}
+
+/* Images */
+img {
+    border: 3px solid #b22222;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Buttons or Interactive Areas */
+button {
+    background-color: #b22222;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #8b0000;
+}
+
+button:focus {
+    outline: 3px solid #ffcc80;
+}
+
+button:active {
+    transform: scale(0.97);
+}
