@@ -177,3 +177,51 @@ git commit -m "Added contact page and social media links"
 git commit -m "Improved mobile responsiveness"
 git commit -m "Final website fixes and README update"
 ```
+
+# References
+
+## Books
+
+* Duckett, J. (2011). *HTML and CSS: Design and Build Websites*. John Wiley & Sons.
+
+* Robbins, J. N. (2018). *Learning Web Design: A Beginner’s Guide to HTML, CSS, JavaScript, and Web Graphics* (5th ed.). O’Reilly Media.
+
+---
+
+## Websites
+
+* MDN Web Docs. (2026). *HTML: HyperText Markup Language*. Available at: https://developer.mozilla.org/
+
+* MDN Web Docs. (2026). *CSS: Cascading Style Sheets*. Available at: https://developer.mozilla.org/
+
+* W3Schools. (2026). *HTML Tutorial*. Available at: https://www.w3schools.com/html/
+
+* W3Schools. (2026). *CSS Tutorial*. Available at: https://www.w3schools.com/css/
+
+* GitHub Docs. (2026). *GitHub Documentation*. Available at: https://docs.github.com/
+
+---
+
+## Images and Media
+
+* Pixabay. (2026). *Royalty-Free Images*. Available at: https://pixabay.com/
+
+* Pexels. (2026). *Free Stock Photos*. Available at: https://www.pexels.com/
+
+* Unsplash. (2026). *Free High-Resolution Images*. Available at: https://unsplash.com/
+
+---
+
+## Fonts and Icons
+
+* Google Fonts. (2026). *Google Fonts Library*. Available at: https://fonts.google.com/
+
+* Font Awesome. (2026). *Icons and Toolkit*. Available at: https://fontawesome.com/
+
+---
+
+## Development Tools
+
+* Visual Studio Code. (2026). *Code Editing Software*. Available at: https://code.visualstudio.com/
+
+* GitHub. (2026). *Version Control and Repository Hosting*. Available at: https://github.com/   
