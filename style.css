@@ -166,3 +166,65 @@ footer {
     font-size: 28px;
 }
 
+/* DESKTOP LAYOUT USING FLEXBOX AND CSS GRID */
+
+/* Navigation layout */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: #b22222;
+    padding: 1rem;
+}
+
+/* Main page layout */
+main {
+    display: grid;
+    grid-template-areas:
+        "hero hero"
+        "content content";
+    gap: 2rem;
+    width: 90%;
+    margin: 2rem auto;
+}
+
+/* Hero section */
+.hero {
+    grid-area: hero;
+    text-align: center;
+    padding: 3rem;
+}
+
+/* Content area */
+.content {
+    grid-area: content;
+}
+
+/* Menu page grid */
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+/* Menu card layout */
+.menu-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Promotion layout */
+.promotions {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.promotion-card {
+    width: 30%;
+    text-align: center;
+}
