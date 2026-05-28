@@ -1,0 +1,89 @@
+/* GENERAL PAGE STYLING */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff8f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* NAVIGATION */
+a {
+    text-decoration: none;
+    color: white;
+    background-color: #b22222;
+    padding: 10px 15px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #8b0000;
+}
+
+/* HEADINGS */
+h1, h2, h4 {
+    text-align: center;
+    color: #b22222;
+}
+
+/* PARAGRAPHS */
+p {
+    padding: 0 20px;
+    text-align: center;
+}
+
+/* IMAGES */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+/* MENU PAGE */
+.menu-container {
+    width: 90%;
+    margin: auto;
+}
+
+.menu-section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.menu-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-section li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu-section span {
+    float: right;
+    font-weight: bold;
+    color: #b22222;
+}
+
+/* FOOTER */
+footer {
+    background-color: #b22222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* SOCIAL ICONS */
+.social-icon {
+    background: none;
+    color: #b22222;
+    font-size: 28px;
+}
