@@ -105,3 +105,75 @@ Created for the WEDE5020 Project.
 License
 
 © 2026 Zauq Indian Cuisine. All rights reserved.
+
+# GitHub Changelog
+
+## Record of Development
+
+### Version 1.0 – Project Setup
+
+* Created the project folder structure
+* Added HTML pages:
+
+  * Home
+  * About
+  * Menu
+  * Contact
+* Linked external CSS stylesheet
+* Added navigation menu and footer
+
+### Version 1.1 – Website Styling
+
+* Added colour scheme and typography
+* Styled the navigation bar
+* Added responsive layout using media queries
+* Improved spacing and alignment across pages
+
+### Version 1.2 – Home Page Improvements
+
+* Added hero banner section
+* Added “Why Choose Zauq?” section
+* Added call-to-action buttons
+* Improved homepage layout for mobile devices
+
+### Version 1.3 – About Page Content
+
+* Added “About Us” section
+* Added “Our Story” section
+* Added “Our Mission” section
+* Added restaurant branding content
+
+### Version 1.4 – Menu Page
+
+* Added starter, main course, and dessert sections
+* Styled food cards using CSS Grid
+* Added authentic Indian cuisine descriptions
+* Improved menu responsiveness
+
+### Version 1.5 – Contact Page
+
+* Added restaurant contact details
+* Added opening hours
+* Added social media links
+* Centered social media icons using Flexbox
+
+### Version 1.6 – Final Improvements
+
+* Fixed footer styling issues
+* Improved mobile responsiveness
+* Corrected broken file paths
+* Updated README documentation
+* Prepared website for GitHub submission
+
+## Example GitHub Commits
+
+```bash
+git commit -m "Created website structure and navigation"
+git commit -m "Added responsive CSS styling"
+git commit -m "Designed homepage banner and sections"
+git commit -m "Added About Us and restaurant story"
+git commit -m "Styled menu page with CSS Grid"
+git commit -m "Added contact page and social media links"
+git commit -m "Improved mobile responsiveness"
+git commit -m "Final website fixes and README update"
+```
