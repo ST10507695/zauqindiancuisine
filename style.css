@@ -398,3 +398,92 @@ button:active {
 #enquiryForm button {
     margin-top: 15px;
 }
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 30px auto 15px auto;
+    width: 100%;
+}
+
+.social-icon {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: #b22222;
+    font-size: 35px;
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+footer p {
+    font-size: 12px;
+    margin: 5px 0;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    clear: both;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 12px;
+    margin: 5px 0;
+}
+#enquiryForm {
+    width: 500px;
+    max-width: 90%;
+    margin: 30px auto;
+}
+
+#enquiryForm input,
+#enquiryForm select,
+#enquiryForm textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#enquiryForm button {
+    width: 150px;
+    margin-top: 15px;
+}
+.order-card {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 450px;
+    max-width: 90%;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.order-form select,
+.order-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.order-form button {
+    width: 100%;
+}

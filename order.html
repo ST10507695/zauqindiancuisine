@@ -6,6 +6,7 @@
     <title>Home | Zauq Indian Cuisine</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<body>
 <!-- Navigation Menu -->
 <nav>
     <a href="index.html">Home</a>
@@ -35,24 +36,300 @@ Come hungry and experience the real India — one delicious dish at a time.
 What would you like to order today?</p> 
 
 <body>
-<h4>Butter Chicken Dishes</h4>   
-<img src="images/Butter.jpg" width="400">       
-<h4>Chicken Curry Dishes</h4>   
-<img src="images/Chicken.jpg" width="400">      
-<h4>Bunny Chow</h4>
-<img src="images/Bunny.jpg" width="400">    
-<h4>Biryani Dishes</h4>
-<img src="images/Biryani.jpg" width="400">  
-<h4>Lamb Dishes</h4>
-<img src="images/Lamb.jpg" width="400"> 
-<h4>Beef Dishes</h4>
-<img src="images/Beef.jpg" width="400"> 
-<h4>Seafood</h4>
-<img src="images/Fish.jpg" width="400">         
-<h4>Flatbreads & Naan</h4>
-    <img src="images/Naan.jpg" width="400">         
-<h4>Snacks & Appetizers</h4>   
-<img src="images/Samosas.jpg" width="400">         
+<div class="order-card">
+
+    <h4>Butter Chicken Dishes</h4>
+
+    <img src="images/Butter.jpg" alt="Butter Chicken" width="400">
+
+    <form class="order-form">
+
+        <label for="butterChicken">Select Dish:</label>
+
+        <select id="butterChicken" name="butterChicken">
+            <option value="100">Butter Chicken - R100</option>
+            <option value="135">Butter Chicken South Indian - R135</option>
+            <option value="110">Butter Chicken with Cream - R110</option>
+            <option value="130">Butter Chicken with Cashew Nuts - R130</option>
+            <option value="110">Lemon Butter Chicken - R110</option>
+        </select>
+
+        <label for="butterQuantity">Quantity:</label>
+        <input type="number" id="butterQuantity" min="1" value="1">
+
+        <button
+type="button"
+onclick="addToOrder('butterChicken','butterQuantity','orderResponse')">
+Add to Order
+</button>
+
+    </form>
+
+</div>
+
+<p id="orderResponse"></p>
+
+<div class="order-card">
+
+    <h4>Chicken Curry Dishes</h4>
+
+    <img src="images/Chicken.jpg" alt="Chicken Curry Dishes" width="400">
+
+    <form class="order-form">
+
+        <label for="chickenCurry">Select Dish:</label>
+
+        <select id="chickenCurry" name="chickenCurry">
+            <option value="90">Chicken Curry (Karahi Style) - R90</option>
+            <option value="110">Chicken Tikka Masala - R110</option>
+            <option value="100">Chicken Korma - R100</option>
+            <option value="110">Chicken White Handi - R110</option>
+            <option value="110">Chicken Handi - R110</option>
+            <option value="120">Chicken Royah Handi - R120</option>
+            <option value="120">Chicken Creamy Coconut - R120</option>
+        </select>
+
+        <label for="chickenQuantity">Quantity:</label>
+        <input type="number" id="chickenQuantity" min="1" value="1">
+
+        <button
+type="button"
+onclick="addToOrder('chickenCurry','chickenQuantity','chickenOrderResponse')">
+Add to Order
+</button>
+
+    </form>
+
+</div>
+
+<p id="chickenOrderResponse"></p>
+
+
+<div class="order-card">
+
+    <h4>Bunny Chow</h4>
+
+    <img src="images/Bunny.jpg" alt="Bunny Chow" width="400">
+
+    <form class="order-form">
+
+        <label for="bunnyChow">Select Dish:</label>
+
+        <select id="bunnyChow" name="bunnyChow">
+            <option value="90">Chicken Bunny Chow - R90</option>
+            <option value="135">Lamb Bunny Chow - R135</option>
+            <option value="80">Vegetable Bunny Chow - R80</option>
+            <option value="75">Beans Bunny Chow - R75</option>
+        </select>
+
+        <label for="bunnyQuantity">Quantity:</label>
+        <input type="number" id="bunnyQuantity" min="1" value="1">
+
+        <button
+type="button"
+onclick="addToOrder('bunnyChow','bunnyQuantity','bunnyOrderResponse')">
+Add to Order
+</button>
+
+    </form>
+
+</div>
+
+<p id="bunnyOrderResponse"></p>
+
+
+<div class="order-card">
+
+    <h4>Biryani Dishes</h4>
+
+    <img src="images/Biryani.jpg" alt="Biryani Dishes" width="400">
+
+    <form class="order-form">
+
+        <label for="biryaniDish">Select Dish:</label>
+
+        <select id="biryaniDish" name="biryaniDish">
+            <option value="95">Chicken Biryani - R95</option>
+            <option value="130">Lamb Biryani - R130</option>
+            <option value="95">Chicken Pilaf - R95</option>
+            <option value="90">Egg Fried Rice - R90</option>
+            <option value="140">Prawn Fried Rice - R140</option>
+        </select>
+
+        <label for="biryaniQuantity">Quantity:</label>
+        <input type="number" id="biryaniQuantity" min="1" value="1">
+
+        <button
+type="button"
+onclick="addToOrder('biryaniDish','biryaniQuantity','biryaniOrderResponse')">
+Add to Order
+</button>
+
+    </form>
+
+</div>
+
+<p id="biryaniOrderResponse"></p>
+
+
+<div class="order-card">
+
+    <h4>Lamb Dishes</h4>
+
+    <img src="images/Lamb.jpg" alt="Lamb Dishes" width="400">
+
+    <form class="order-form">
+
+        <label for="lambDish">Select Dish:</label>
+
+        <select id="lambDish" name="lambDish">
+            <option value="135">Lamb Curry - R135</option>
+            <option value="135">Lamb Korma - R135</option>
+            <option value="140">Lamb Fry - R140</option>
+            <option value="125">Lamb Spinach - R125</option>
+        </select>
+
+        <label for="lambQuantity">Quantity:</label>
+        <input type="number" id="lambQuantity" min="1" value="1">
+
+        <button
+type="button"
+onclick="addToOrder('lambDish','lambQuantity','lambOrderResponse')">
+Add to Order
+</button>
+
+    </form>
+
+</div>
+
+<p id="lambOrderResponse"></p>
+
+
+<div class="order-card">
+
+    <h4>Beef Dishes</h4>
+
+    <img src="images/Beef.jpg" alt="Beef Dishes" width="400">
+
+    <form class="order-form">
+
+        <label for="beefDish">Select Dish:</label>
+
+        <select id="beefDish" name="beefDish">
+            <option value="125">Beef Curry - R125</option>
+            <option value="135">Beef Korma - R135</option>
+            <option value="125">Keema Curry - R125</option>
+            <option value="135">Keema Fry - R135</option>
+            <option value="120">Matar Keema - R120</option>
+        </select>
+
+        <label for="beefQuantity">Quantity:</label>
+        <input type="number" id="beefQuantity" min="1" value="1">
+
+        <button
+type="button"
+onclick="addToOrder('beefDish','beefQuantity','beefOrderResponse')">
+Add to Order
+</button>
+
+    </form>
+
+</div>
+
+<p id="beefOrderResponse"></p>
+
+
+<div class="order-card">
+
+    <h4>Seafood</h4>
+
+    <img src="images/Fish.jpg" alt="Seafood Dishes" width="400">
+
+    <form class="order-form">
+
+        <label for="seafoodDish">Select Dish:</label>
+
+        <select id="seafoodDish" name="seafoodDish">
+            <option value="160">Fish Curry - R160</option>
+            <option value="160">Green Fish Masala - R160</option>
+            <option value="150">Prawn Curry - R150</option>
+            <option value="150">Butter Prawns - R150</option>
+        </select>
+
+        <label for="seafoodQuantity">Quantity:</label>
+        <input type="number" id="seafoodQuantity" min="1" value="1">
+
+        <button
+type="button"
+onclick="addToOrder('seafoodDish','seafoodQuantity','seafoodOrderResponse')">
+Add to Order
+</button>
+
+    </form>
+
+</div>
+
+<p id="seafoodOrderResponse"></p>
+
+
+<div class="order-card">
+
+    <h4>Flatbreads & Naan</h4>
+
+    <img src="images/Naan.jpg" alt="Flatbreads and Naan" width="400">
+
+    <form class="order-form">
+
+        <label for="naanDish">Select Dish:</label>
+
+        <select id="naanDish" name="naanDish">
+            <option value="14">Tandoori Naan - R14</option>
+            <option value="18">Butter Naan - R18</option>
+            <option value="22">Garlic Naan - R22</option>
+            <option value="20">Rogni Naan - R20</option>
+            <option value="25">Plain Paratha - R25</option>
+            <option value="45">Aloo Paratha - R45</option>
+        </select>
+
+        <label for="naanQuantity">Quantity:</label>
+        <input type="number" id="naanQuantity" min="1" value="1">
+
+        <button type="button" onclick="addToOrder('naanDish','naanQuantity','naanOrderResponse')">Add to Order</button>
+
+    </form>
+
+</div>
+
+<p id="naanOrderResponse"></p>
+    
+    
+<div class="order-card">
+
+    <h4>Snacks & Appetizers</h4>
+
+    <img src="images/Samosas.jpg" alt="Snacks and Appetizers" width="400">
+
+    <form class="order-form">
+
+        <label for="snackDish">Select Dish:</label>
+
+        <select id="snackDish" name="snackDish">
+            <option value="35">Potato Samosas (6 pcs) - R35</option>
+            <option value="40">Chicken Samosas (6 pcs) - R40</option>
+            <option value="50">Beef Samosas (6 pcs) - R50</option>
+            <option value="70">Chicken Wings (8 pcs) - R70</option>
+        </select>
+
+        <label for="snackQuantity">Quantity:</label>
+        <input type="number" id="snackQuantity" min="1" value="1">
+
+        <button type="button" onclick="addToOrder('snackDish','snackQuantity','snackOrderResponse')">Add to Order</button>
+
+    </form>
+
+</div>
+
+<p id="snackOrderResponse"></p>        
 
 
 <!-- Social Media Links -->
@@ -76,15 +353,17 @@ What would you like to order today?</p>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 </html>
+<h2>Order Summary</h2>
 
+<ul id="orderList"></ul>
+
+<h3 id="orderTotal">Order Total: R0</h3>
 
 <!-- Footer Section -->
-<div>
-
-    <footer>
+<footer>
     <p>© 2026 Zauq Indian Cuisine. All rights reserved.</p>
-    <p>No article or picture may be reproduced / published without the written consent of Zauq Indian Cuisine.</p>
-</footer>   
+    <p>No article or picture may be reproduced or published without the written consent of Zauq Indian Cuisine.</p>
+</footer>
 
-
-</div>
+</body>
+</html>
