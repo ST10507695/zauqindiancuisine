@@ -311,7 +311,7 @@ button:active {
     h1 {
         font-size: 2rem;
     }
-}
+
 
 /* MOBILE */
 @media screen and (max-width: 480px) {
@@ -324,7 +324,7 @@ button:active {
         width: 100%;
         margin-bottom: 20px;
     }
-}
+
     .menu-section {
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -335,7 +335,7 @@ button:active {
         display: block;
         text-align: right;
     }
-}
+
 .social-links {
     display: flex;
     justify-content: center;
@@ -761,13 +761,12 @@ button:hover {
     }
 }  
 /* FORCE SINGLE COLUMN ON MOBILE */
-@media screen and (max-width: 768px) {  
+@media screen and (max-width: 480px) {
     .menu-container {
-        display: block !important;
+        grid-template-columns: 1fr;
     }
-
+}   
     .menu-section {
         width: 100% !important;
         margin: 20px 0;
     }
-}                 
