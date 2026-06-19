@@ -346,18 +346,55 @@ button:active {
     }
 }
 .social-links {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.social-links a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: white;
-}   
-.social-links {
     display: flex;
     justify-content: center;
-    gap: 20px;
-    margin-top: 20px;
+    align-items: center;
+    gap: 30px;
+    margin: 20px auto;
+}
+
+.social-icon {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: #b22222;
+    font-size: 40px;
+    padding: 0;
+}
+
+.social-icon:hover {
+    color: #8b0000;
+    transform: scale(1.1);
+}
 }   
+
+/* ENQUIRY FORM */
+#enquiryForm {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    max-width: 90%;
+    margin: 30px auto;
+    gap: 8px;
+}
+
+#enquiryForm label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#enquiryForm input,
+#enquiryForm select,
+#enquiryForm textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#enquiryForm textarea {
+    height: 120px;
+}
+
+#enquiryForm button {
+    margin-top: 15px;
+}

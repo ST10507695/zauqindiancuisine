@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Zauq Indian Cuisine</title>
+    <title>Enquiry | Zauq Indian Cuisine</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<!-- Navigation Menu -->
+
+<body>
+
 <nav>
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
@@ -17,24 +19,28 @@
 </nav>
 
 <h1>Enquire About Our Services</h1>
-    <img src="images/foods.jpg" width="600">
+
+<img src="images/foods.jpg" alt="Indian Cuisine" width="600">
 
 <form id="enquiryForm">
-  <label for="enquiryName">Full Name</label>
-  <input type="text" id="enquiryName" required>
+    <label for="enquiryName">Full Name</label>
+    <input type="text" id="enquiryName" required>
 
-  <label for="service">Type of Enquiry</label>
-  <select id="service" required>
-    <option value="">Select an option</option>
-    <option value="menu order">Menu Order</option>
-    <option value="catering">Catering</option>
-    <option value="booking">Table Booking</option>
-  </select>
+    <label for="service">Type of Enquiry</label>
+    <select id="service" required>
+        <option value="">Select an option</option>
+        <option value="menu order">Menu Order</option>
+        <option value="catering">Catering</option>
+        <option value="booking">Table Booking</option>
+    </select>
 
-  <label for="enquiryMessage">Message</label>
-  <textarea id="enquiryMessage" required minlength="10"></textarea>
+    <label for="enquiryMessage">Message</label>
+    <textarea id="enquiryMessage" required minlength="10"></textarea>
 
-  <button type="submit">Submit Enquiry</button>
+    <button type="submit">Submit Enquiry</button>
 </form>
 
 <p id="enquiryResponse"></p>
+
+</body>
+</html>
