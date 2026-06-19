@@ -762,4 +762,15 @@ button:hover {
     .menu-container {
         grid-template-columns: 1fr;
     }
-}            
+}  
+/* FORCE SINGLE COLUMN ON MOBILE */
+@media screen and (max-width: 768px) {
+    .menu-container {
+        display: block !important;
+    }
+
+    .menu-section {
+        width: 100% !important;
+        margin: 20px 0;
+    }
+}                 
