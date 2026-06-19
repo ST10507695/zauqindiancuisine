@@ -92,3 +92,29 @@ function addToOrder(dishId, quantityId, responseId) {
     document.getElementById("orderTotal").innerHTML =
         `Order Total: R${total}`;
 }
+let total = 0;
+
+function addToOrder(dishId, quantityId, responseId) {
+    let dishSelect = document.getElementById(dishId);
+    let dishName = dishSelect.options[dishSelect.selectedIndex].text;
+    let price = Number(dishSelect.value);
+    let quantity = Number(document.getElementById(quantityId).value);
+
+    if (quantity < 1) {
+        alert("Please enter a quantity of at least 1.");
+        return;
+    }
+
+    let itemTotal = price * quantity;
+    total += itemTotal;
+
+    document.getElementById(responseId).innerHTML =
+        `${quantity} × ${dishName} added to order`;
+
+    let item = document.createElement("li");
+    item.textContent = `${quantity} × ${dishName} = R${itemTotal}`;
+    document.getElementById("orderList").appendChild(item);
+
+    document.getElementById("orderTotal").innerHTML =
+        `Order Total: R${total}`;
+}
