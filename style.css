@@ -735,4 +735,24 @@ button:hover {
         margin: 3px 0;
         box-sizing: border-box;
     }
-}   
+}
+@media screen and (max-width: 600px) {
+    nav {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+        overflow-x: hidden;
+    }
+
+    nav a {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        margin: 5px 0;
+        text-align: center;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+}          
