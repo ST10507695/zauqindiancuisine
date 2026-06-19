@@ -225,3 +225,25 @@ git commit -m "Final website fixes and README update"
 * Visual Studio Code. (2026). *Code Editing Software*. Available at: https://code.visualstudio.com/
 
 * GitHub. (2026). *Version Control and Repository Hosting*. Available at: https://github.com/   
+
+## Changelog
+
+### Part 3 Updates
+- Added JavaScript order functionality.
+- Added order total calculator.
+- Added remove button for order summary items.
+- Added enquiry form with validation and response message.
+- Added contact form with validation.
+- Added SEO meta tags to all pages.
+- Added alt text to all images.
+- Added robots.txt and sitemap.xml.
+- Improved responsive design and mobile layout.
+- Added social media links.
+- Prepared website for deployment.
+
+### Feedback Corrections from Part 2
+- Fixed HTML structure and body placement.
+- Corrected footer placement.
+- Improved form layout.
+- Fixed social media icon alignment.
+- Updated image paths and alt text.
