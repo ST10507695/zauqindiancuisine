@@ -314,35 +314,25 @@ button:active {
 }
 
 /* MOBILE */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
+
     .menu-container {
+        display: grid;
         grid-template-columns: 1fr;
+        gap: 20px;
+        width: 95%;
+        margin: auto;
     }
 
-    nav {
-        flex-direction: column;
-        align-items: stretch;
-    }
-
-    nav a {
-        text-align: center;
+    .menu-section {
         width: 100%;
+        box-sizing: border-box;
     }
 
-    body {
-        font-size: 14px;
-    }
-
-    h1 {
-        font-size: 1.6rem;
-    }
-
-    h2 {
-        font-size: 1.3rem;
-    }
-
-    p {
-        padding: 0 5%;
+    .menu-section span {
+        float: none;
+        display: block;
+        text-align: right;
     }
 }
 .social-links {
