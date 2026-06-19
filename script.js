@@ -49,4 +49,4 @@ function addToOrder(dishId, quantityId, responseId) {
     orderList.appendChild(listItem);
 
     orderTotal.textContent = "Order Total: R" + total;
-}   
+}       
