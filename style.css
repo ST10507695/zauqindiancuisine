@@ -760,13 +760,18 @@ button:hover {
         grid-template-columns: 1fr;
     }
 }  
-/* FORCE SINGLE COLUMN ON MOBILE */
-@media screen and (max-width: 480px) {
+/* MOBILE MENU FIX */
+@media screen and (max-width: 768px) {
+
     .menu-container {
-        grid-template-columns: 1fr;
+        display: block !important;
+        width: 95%;
+        margin: auto;
     }
-}   
+
     .menu-section {
         width: 100% !important;
-        margin: 20px 0;
+        margin: 20px 0 !important;
+        display: block !important;
     }
+}   
