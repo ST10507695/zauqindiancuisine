@@ -104,3 +104,95 @@ if (enquiryForm) {
             " has been received. We will contact you with cost and availability.";
     });
 }   
+// ENQUIRY FORM VALIDATION
+const enquiryForm = document.getElementById("enquiryForm");
+
+if (enquiryForm) {
+    enquiryForm.addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        let name = document.getElementById("enquiryName").value.trim();
+        let email = document.getElementById("enquiryEmail").value.trim();
+        let phone = document.getElementById("enquiryPhone").value.trim();
+        let service = document.getElementById("service").value;
+        let message = document.getElementById("enquiryMessage").value.trim();
+        let response = document.getElementById("enquiryResponse");
+
+        if (name.length < 2) {
+            response.textContent = "Please enter your full name.";
+            return;
+        }
+
+        if (!email.includes("@")) {
+            response.textContent = "Please enter a valid email address.";
+            return;
+        }
+
+        if (!/^[0-9]{10}$/.test(phone)) {
+            response.textContent = "Phone number must be 10 digits.";
+            return;
+        }
+
+        if (service === "") {
+            response.textContent = "Please select an enquiry type.";
+            return;
+        }
+
+        if (message.length < 10) {
+            response.textContent = "Message must be at least 10 characters.";
+            return;
+        }
+
+        response.textContent =
+            "Thank you, " + name + ". Your enquiry about " + service +
+            " has been received. We will contact you with cost and availability.";
+    });
+}   
+// CONTACT FORM VALIDATION + AJAX SIMULATION
+const contactForm = document.getElementById("contactForm");
+
+if (contactForm) {
+    contactForm.addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        let name = document.getElementById("contactName").value.trim();
+        let email = document.getElementById("contactEmail").value.trim();
+        let phone = document.getElementById("contactPhone").value.trim();
+        let messageType = document.getElementById("messageType").value;
+        let message = document.getElementById("contactMessage").value.trim();
+        let response = document.getElementById("contactResponse");
+
+        if (name.length < 2) {
+            response.textContent = "Please enter your full name.";
+            return;
+        }
+
+        if (!email.includes("@")) {
+            response.textContent = "Please enter a valid email address.";
+            return;
+        }
+
+        if (!/^[0-9]{10}$/.test(phone)) {
+            response.textContent = "Phone number must be 10 digits.";
+            return;
+        }
+
+        if (messageType === "") {
+            response.textContent = "Please select a message type.";
+            return;
+        }
+
+        if (message.length < 10) {
+            response.textContent = "Message must be at least 10 characters.";
+            return;
+        }
+
+        response.textContent = "Sending message...";
+
+        setTimeout(function() {
+            response.textContent =
+                "Thank you, " + name + ". Your " + messageType +
+                " has been prepared and submitted successfully.";
+        }, 1000);
+    });
+}   
