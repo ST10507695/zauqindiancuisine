@@ -63,7 +63,7 @@ Come hungry and experience the real India — one delicious dish at a time.
         <label for="butterQuantity">Quantity:</label>
         <input type="number" id="butterQuantity" min="1" value="1">
 
-        <button
+<button
 type="button"
 onclick="addToOrder('butterChicken','butterQuantity','orderResponse')">
 Add to Order
@@ -98,7 +98,7 @@ Add to Order
         <label for="chickenQuantity">Quantity:</label>
         <input type="number" id="chickenQuantity" min="1" value="1">
 
-        <button
+<button
 type="button"
 onclick="addToOrder('chickenCurry','chickenQuantity','chickenOrderResponse')">
 Add to Order
@@ -131,9 +131,9 @@ Add to Order
         <label for="bunnyQuantity">Quantity:</label>
         <input type="number" id="bunnyQuantity" min="1" value="1">
 
-        <button
+<button
 type="button"
-onclick="addToOrder('bunnyChow','bunnyQuantity','bunnyOrderResponse')">
+onclick="addToOrder('butterChicken','butterQuantity','orderResponse')">
 Add to Order
 </button>
 
@@ -165,9 +165,9 @@ Add to Order
         <label for="biryaniQuantity">Quantity:</label>
         <input type="number" id="biryaniQuantity" min="1" value="1">
 
-        <button
+<button
 type="button"
-onclick="addToOrder('biryaniDish','biryaniQuantity','biryaniOrderResponse')">
+onclick="addToOrder('butterChicken','butterQuantity','orderResponse')">
 Add to Order
 </button>
 
@@ -198,9 +198,9 @@ Add to Order
         <label for="lambQuantity">Quantity:</label>
         <input type="number" id="lambQuantity" min="1" value="1">
 
-        <button
+<button
 type="button"
-onclick="addToOrder('lambDish','lambQuantity','lambOrderResponse')">
+onclick="addToOrder('butterChicken','butterQuantity','orderResponse')">
 Add to Order
 </button>
 
@@ -232,9 +232,9 @@ Add to Order
         <label for="beefQuantity">Quantity:</label>
         <input type="number" id="beefQuantity" min="1" value="1">
 
-        <button
+<button
 type="button"
-onclick="addToOrder('beefDish','beefQuantity','beefOrderResponse')">
+onclick="addToOrder('butterChicken','butterQuantity','orderResponse')">
 Add to Order
 </button>
 
@@ -265,9 +265,9 @@ Add to Order
         <label for="seafoodQuantity">Quantity:</label>
         <input type="number" id="seafoodQuantity" min="1" value="1">
 
-        <button
+<button
 type="button"
-onclick="addToOrder('seafoodDish','seafoodQuantity','seafoodOrderResponse')">
+onclick="addToOrder('butterChicken','butterQuantity','orderResponse')">
 Add to Order
 </button>
 
@@ -300,7 +300,9 @@ Add to Order
         <label for="naanQuantity">Quantity:</label>
         <input type="number" id="naanQuantity" min="1" value="1">
 
-        <button type="button" onclick="addToOrder('naanDish','naanQuantity','naanOrderResponse')">Add to Order</button>
+        <button type="button" onclick="addToOrder('naanDish','naanQuantity','naanOrderResponse')">
+        Add to Order
+        </button>
 
     </form>
 
@@ -329,7 +331,9 @@ Add to Order
         <label for="snackQuantity">Quantity:</label>
         <input type="number" id="snackQuantity" min="1" value="1">
 
-        <button type="button" onclick="addToOrder('snackDish','snackQuantity','snackOrderResponse')">Add to Order</button>
+        <button type="button" onclick="addToOrder('snackDish','snackQuantity','snackOrderResponse')">
+        Add to Order
+        </button>
 
     </form>
 
@@ -356,13 +360,11 @@ Add to Order
 </div>
 
 <div class="order-summary">
-
     <h2>Order Summary</h2>
 
     <ul id="orderList"></ul>
 
     <h3 id="orderTotal">Order Total: R0</h3>
-
 </div>
 
 <script src="script.js"></script>
