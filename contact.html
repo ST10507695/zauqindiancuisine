@@ -17,6 +17,32 @@
 </nav>
 <!-- Contact Information -->
     <h1>Contact Us</h1>
+
+<form id="contactForm" action="mailto:info@zauqindiancuisine.co.za" method="post" enctype="text/plain">
+    <label for="contactName">Full Name</label>
+    <input type="text" id="contactName" name="name" required minlength="2" maxlength="50">
+
+    <label for="contactEmail">Email Address</label>
+    <input type="email" id="contactEmail" name="email" required>
+
+    <label for="contactPhone">Phone Number</label>
+    <input type="tel" id="contactPhone" name="phone" required pattern="[0-9]{10}" placeholder="0821234567">
+
+    <label for="messageType">Message Type</label>
+    <select id="messageType" name="messageType" required>
+        <option value="">Select message type</option>
+        <option value="General Message">General Message</option>
+        <option value="Compliment">Compliment</option>
+        <option value="Complaint">Complaint</option>
+        <option value="Booking Question">Booking Question</option>
+    </select>
+
+    <label for="contactMessage">Message</label>
+    <textarea id="contactMessage" name="message" required minlength="10" maxlength="500"></textarea>
+
+    <button type="submit">Send Message</button>
+</form>
+
     <section>
 
     <p>

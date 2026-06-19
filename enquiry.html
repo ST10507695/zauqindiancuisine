@@ -24,23 +24,26 @@
 
 <form id="enquiryForm">
     <label for="enquiryName">Full Name</label>
-    <input type="text" id="enquiryName" required>
+    <input type="text" id="enquiryName" required minlength="2" maxlength="50">
+
+    <label for="enquiryEmail">Email Address</label>
+    <input type="email" id="enquiryEmail" required>
+
+    <label for="enquiryPhone">Phone Number</label>
+    <input type="tel" id="enquiryPhone" required pattern="[0-9]{10}" placeholder="0821234567">
 
     <label for="service">Type of Enquiry</label>
     <select id="service" required>
         <option value="">Select an option</option>
-        <option value="menu order">Menu Order</option>
-        <option value="catering">Catering</option>
-        <option value="booking">Table Booking</option>
+        <option value="Menu Order">Menu Order</option>
+        <option value="Catering">Catering</option>
+        <option value="Table Booking">Table Booking</option>
     </select>
 
     <label for="enquiryMessage">Message</label>
-    <textarea id="enquiryMessage" required minlength="10"></textarea>
+    <textarea id="enquiryMessage" required minlength="10" maxlength="300"></textarea>
 
     <button type="submit">Submit Enquiry</button>
 </form>
 
 <p id="enquiryResponse"></p>
-
-</body>
-</html>

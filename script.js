@@ -88,4 +88,19 @@ function loadSpecials() {
     });
 }
 
-window.onload = loadSpecials;       
+window.onload = loadSpecials; 
+
+const enquiryForm = document.getElementById("enquiryForm");
+
+if (enquiryForm) {
+    enquiryForm.addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        let name = document.getElementById("enquiryName").value;
+        let service = document.getElementById("service").value;
+
+        document.getElementById("enquiryResponse").textContent =
+            "Thank you, " + name + ". Your enquiry about " + service +
+            " has been received. We will contact you with cost and availability.";
+    });
+}   
