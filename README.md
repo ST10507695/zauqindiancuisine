@@ -247,3 +247,5 @@ git commit -m "Final website fixes and README update"
 - Improved form layout.
 - Fixed social media icon alignment.
 - Updated image paths and alt text.
+
+- Optimised page loading speed by resizing images, adding lazy loading to images, removing duplicate CSS rules, and loading JavaScript at the bottom of each page.
