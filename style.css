@@ -325,9 +325,9 @@ button:active {
     }
 
     .menu-section {
-        width: 100%;
-        box-sizing: border-box;
-    }
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
 
     .menu-section span {
         float: none;
