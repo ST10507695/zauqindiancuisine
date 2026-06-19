@@ -775,3 +775,18 @@ button:hover {
         display: block !important;
     }
 }   
+/* MOBILE MENU CARDS */
+@media screen and (max-width: 768px) {
+
+    .menu-container {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 20px;
+    }
+
+    .menu-section {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 auto 20px auto !important;
+    }
+} 
