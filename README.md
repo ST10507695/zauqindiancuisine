@@ -257,3 +257,172 @@ git commit -m "Final website fixes and README update"
 - Used `rel="noopener noreferrer"` on external links that open in a new tab.
 - Used `textContent` instead of unsafe `innerHTML` where possible.
 - Deployed the website using HTTPS through GitHub Pages.
+
+# Zauq Indian Cuisine Website
+
+## Part 3 – Functionality and SEO Enhancements
+
+### Overview
+
+This phase focused on improving website functionality through JavaScript, enhancing user interaction, implementing Search Engine Optimisation (SEO) techniques, improving responsiveness across devices, and deploying the website online using GitHub Pages.
+
+---
+
+## New Features Implemented
+
+### JavaScript Functionality
+
+* Added dynamic order system on the Order page.
+* Implemented order total calculations.
+* Added remove-item functionality within the order summary.
+* Added enquiry form validation.
+* Added contact form validation.
+* Implemented dynamic content loading for daily specials.
+* Added search functionality for menu items.
+* Implemented image gallery with lightbox functionality.
+* Added interactive feedback messages for user actions.
+
+### Interactive Elements
+
+* Hover animations on menu cards.
+* Image zoom effects.
+* Button transition animations.
+* Page fade-in animation when loading.
+
+### Gallery Lightbox
+
+* Users can click gallery images to view larger versions.
+* Added overlay lightbox with click-to-close functionality.
+
+### Google Maps Integration
+
+* Embedded Google Maps location on the Contact page.
+* Allows users to locate Zauq Indian Cuisine directly from the website.
+
+---
+
+## Search Engine Optimisation (SEO)
+
+### On-Page SEO
+
+* Added descriptive page titles.
+* Added meta viewport tags for mobile responsiveness.
+* Added descriptive alt text to images.
+* Improved heading structure using H1, H2, and H3 tags.
+* Improved internal navigation links.
+* Optimised image sizes and filenames.
+
+### Technical SEO
+
+* Created robots.txt file.
+* Created sitemap.xml file.
+* Improved mobile responsiveness.
+* Reduced image sizes to improve page loading speed.
+
+### Local SEO
+
+* Added restaurant address and contact information.
+* Embedded Google Maps location.
+* Linked social media accounts.
+
+---
+
+## Forms and Validation
+
+### Enquiry Form
+
+Allows customers to enquire about:
+
+* Menu orders
+* Catering services
+* Table bookings
+
+Validation includes:
+
+* Required fields
+* Email validation
+* Phone number validation
+* Minimum message length
+
+### Contact Form
+
+Allows customers to:
+
+* Send general messages
+* Submit compliments
+* Submit complaints
+* Request booking information
+
+Validation includes:
+
+* Required fields
+* Email validation
+* Phone number validation
+* Message validation
+
+---
+
+## Deployment
+
+Website deployed using GitHub Pages.
+
+Live Website:
+https://st10507695.github.io
+
+GitHub Repository:
+https://github.com/st10507695
+
+---
+
+## Changelog
+
+### Part 2 Feedback Corrections
+
+* Improved website responsiveness.
+* Corrected navigation layout issues.
+* Improved footer alignment.
+* Fixed social media icon positioning.
+* Improved form styling.
+* Improved menu card layout.
+
+### Part 3 Updates
+
+* Added JavaScript order functionality.
+* Added order total calculation.
+* Added remove-item functionality.
+* Added enquiry form validation.
+* Added contact form validation.
+* Added gallery lightbox.
+* Added dynamic content loading.
+* Added menu search functionality.
+* Added Google Maps integration.
+* Added robots.txt.
+* Added sitemap.xml.
+* Added SEO improvements.
+* Added page animations and transitions.
+* Optimised mobile layout.
+* Deployed website using GitHub Pages.
+
+---
+
+## References
+
+Google Developers. 2026. Search Engine Optimization Starter Guide.
+
+Mozilla Developer Network (MDN). 2026. HTML Documentation.
+https://developer.mozilla.org
+
+Mozilla Developer Network (MDN). 2026. CSS Documentation.
+https://developer.mozilla.org
+
+Mozilla Developer Network (MDN). 2026. JavaScript Documentation.
+https://developer.mozilla.org
+
+Google Maps Platform. 2026. Embed Maps Documentation.
+https://developers.google.com/maps
+
+Ionicons. 2026. Open Source Icon Library.
+https://ionic.io/ionicons
+
+GitHub. 2026. GitHub Pages Documentation.
+https://docs.github.com/pages
