@@ -317,13 +317,17 @@ button:active {
 @media screen and (max-width: 768px) {
 
     .menu-container {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 20px;
+        display: grid !important;
+        grid-template-columns: 1fr !important;
         width: 95%;
         margin: auto;
     }
 
+    .menu-section {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
     .menu-section {
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -655,7 +659,7 @@ button:hover {
 
 @media screen and (max-width: 768px) {
     .gallery {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr !important;  
     }
 }
 
@@ -745,4 +749,17 @@ button:hover {
     body {
         overflow-x: hidden;
     }
-}          
+} 
+/* Desktop/tablet */
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+/* Phone */
+@media screen and (max-width: 768px) {
+    .menu-container {
+        grid-template-columns: 1fr;
+    }
+}            
