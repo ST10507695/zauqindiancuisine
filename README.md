@@ -249,3 +249,11 @@ git commit -m "Final website fixes and README update"
 - Updated image paths and alt text.
 
 - Optimised page loading speed by resizing images, adding lazy loading to images, removing duplicate CSS rules, and loading JavaScript at the bottom of each page.
+
+## Security Measures
+
+- Added HTML5 validation to forms to reduce invalid input.
+- Added JavaScript validation before form submission.
+- Used `rel="noopener noreferrer"` on external links that open in a new tab.
+- Used `textContent` instead of unsafe `innerHTML` where possible.
+- Deployed the website using HTTPS through GitHub Pages.
