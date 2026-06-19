@@ -1,0 +1,19 @@
+<form id="enquiryForm">
+  <label for="enquiryName">Full Name</label>
+  <input type="text" id="enquiryName" required>
+
+  <label for="service">Type of Enquiry</label>
+  <select id="service" required>
+    <option value="">Select an option</option>
+    <option value="menu order">Menu Order</option>
+    <option value="catering">Catering</option>
+    <option value="booking">Table Booking</option>
+  </select>
+
+  <label for="enquiryMessage">Message</label>
+  <textarea id="enquiryMessage" required minlength="10"></textarea>
+
+  <button type="submit">Submit Enquiry</button>
+</form>
+
+<p id="enquiryResponse"></p>
