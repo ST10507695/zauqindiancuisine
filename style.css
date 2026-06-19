@@ -690,3 +690,33 @@ button:hover {
     width: 90%;
     margin: 20px auto;
 }
+/* CONTACT FORM */
+#contactForm {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    max-width: 90%;
+    margin: 30px auto;
+}
+
+#contactForm label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#contactForm input,
+#contactForm select,
+#contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+#contactForm textarea {
+    height: 120px;
+}
+
+#contactForm button {
+    margin-top: 15px;
+}
