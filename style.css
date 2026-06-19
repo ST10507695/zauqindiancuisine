@@ -301,9 +301,9 @@ button:active {
 /* TABLET */
 @media screen and (max-width: 1023px) {
     .menu-container {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
     }
-
+}   
     nav {
         flex-wrap: wrap;
     }
@@ -314,14 +314,11 @@ button:active {
 }
 
 /* MOBILE */
-@media screen and (max-width: 768px) {
-
+@media screen and (max-width: 480px) {
     .menu-container {
-        display: grid !important;
-        grid-template-columns: 1fr !important;
-        width: 95%;
-        margin: auto;
+        grid-template-columns: 1fr;
     }
+}   
 
     .menu-section {
         width: 100%;
@@ -764,7 +761,7 @@ button:hover {
     }
 }  
 /* FORCE SINGLE COLUMN ON MOBILE */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {  
     .menu-container {
         display: block !important;
     }
