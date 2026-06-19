@@ -486,3 +486,69 @@ footer p {
 .order-form button {
     width: 100%;
 }
+#orderList {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#orderSummary,
+.order-summary {
+    text-align: center;
+    margin: 30px auto;
+    width: 100%;
+}
+
+#orderTotal {
+    text-align: center;
+    color: #b22222;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.order-summary {
+    background: white;
+    width: 80%;
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+#orderList li {
+    margin: 10px 0;
+    text-align: center;
+}
+
+#orderList button {
+    background-color: #b22222;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#orderList button:hover {
+    background-color: #8b0000;
+}
+.order-form {
+    width: 100%;
+}
+
+.order-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.order-form select,
+.order-form input[type="number"] {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
